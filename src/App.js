@@ -6,7 +6,6 @@ import './styles/bootstrap4/bootstrap.min.css';
 import event_speaker1 from './images/event_speaker_1.jpg';
 import event_speaker2 from './images/event_speaker_2.jpg';
 
-
 class App extends Component {
   render() {
     return (
@@ -78,7 +77,7 @@ class App extends Component {
                         </div>
                         <div className="event_buttons">
                           {/* <div className="button event_button event_button_1"><a href="#">Buy Tickets Now!</a></div> */}
-                          <div className="button_2 event_button event_button_2"><a href="./event1.js">Read more</a></div>
+                          <div className="button_2 event_button event_button_2"><a href="./component/event1.js">Read more</a></div>
                         </div>
                       </div>
                     </div>
@@ -113,8 +112,8 @@ class App extends Component {
                           <div className="event_speaker d-flex flex-row align-items-center justify-content-start">
                             <div><div className="event_speaker_image"><img src={event_speaker1} alt /></div></div>
                             <div className="event_speaker_content">
-                              <div className="event_speaker_name">Indonesia Coffee</div>
-                              <div className="event_speaker_title">Peningkatan Pengawasan Distribusi Pangan untuk Stabilisasi Harga</div>
+                              <div className="event_speaker_name">Directur pertanian</div>
+                              <div className="event_speaker_title">Materi dan Produk Baku Pertanian & Peningkatan Pengawasan Distribusi Pangan untuk Stabilisasi Harga</div>
                             </div>
                           </div>
                           {/* Event Speaker */}
@@ -129,7 +128,7 @@ class App extends Component {
 
                         <div className="event_buttons">
                           {/* <div className="button event_button event_button_1"><a href="#">Buy Tickets Now!</a></div> */}
-                          <div className="button_2 event_button event_button_2"><a href="#">Read more</a></div>
+                          <div className="button_2 event_button event_button_2"><a href="./component/event2.js">Read more</a></div>
                         </div>
                       </div>
                     </div>
@@ -157,7 +156,7 @@ class App extends Component {
                         <div className="event_title">Rakernas Pembangunan Pertanian Tahun 2019</div>
                         <div className="event_location">@ Hotel Grand Bidakara Pancoran, Jakarta Selatan</div>
                         <div className="event_text">
-                          <p>Acara Rakernas dibuka oleh Menteri Pertanian, Dr.,Ir., Andi Amran Sulaiman, MP. Peserta rapat dihadiri oleh Gubernur, Bupati, Kepala Dinas yang menangani pertanian dan ketahanan pangan Kabupaten/Kota seluruh Indonesia. Pada kesempatan tersebut, Amran menghimbau kepada seluruh peserta rapat agar mempersiapkan dan merencanakan pembangunan pertanian untuk ke depannya..</p>
+                          <p>Dalam rangka evaluasi capaian 4 tahun pembangunan pertanian dan persiapan perencanaan pembangunan pertanian ke depan, Badan Ketahanan Pangan (BKP) Kementerian Pertanian Pusat melaksanakan Rakernas Pembangunan Pertanian Tahun 2019.</p>
                         </div>
                         <div className="event_speakers">
                           {/* Event Speaker */}
@@ -179,7 +178,7 @@ class App extends Component {
                         </div>
                         <div className="event_buttons">
                           {/* <div className="button event_button event_button_1"><a href="#">Buy Tickets Now!</a></div> */}
-                          <div className="button_2 event_button event_button_2"><a href="#">Read more</a></div>
+                          <div className="button_2 event_button event_button_2"><a href="./component/event3.js">Read more</a></div>
                         </div>
                       </div>
                     </div>

@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
-// import './App.css';
 import './styles/events.css';
 import './styles/bootstrap4/bootstrap.min.css';
 import event_speaker1 from './images/event_speaker_1.jpg';
 import event_speaker2 from './images/event_speaker_2.jpg';
 
-class Event1 extends Component {
+class Event2 extends Component {
   render() {
     return (
         <div>
@@ -37,12 +35,12 @@ class Event1 extends Component {
                   <div className="row row-lg-eq-height">
                     <div className="col-lg-6 event_col">
                       <div className="event_image_container">
-                        <div className="background_image" style={{backgroundImage: 'url(https://resizepic.com/resizedimage.php?file=690x590-2fe44217e538df53c2f4ed653e055100.jpg&format=jpg)'}} />
+                        <div className="background_image" style={{backgroundImage: 'url(https://resizepic.com/resizedimage.php?file=690x590-2b82eb600f6cf2261b946201841b94c8.jpg&format=jpg)'}} />
                         <div className="date_container">
                           <a href="#">
                             <span className="date_content d-flex flex-column align-items-center justify-content-center">
-                              <div className="date_day">28-30</div>
-                              <div className="date_month">Maret</div>
+                              <div className="date_day">27-30</div>
+                              <div className="date_month">Juni</div>
                             </span>
                           </a>	
                         </div>
@@ -50,41 +48,23 @@ class Event1 extends Component {
                     </div>
                     <div className="col-lg-6 event_col">
                       <div className="event_content">
-                        <div className="event_title">Indo Agri Expo 2019</div>
-                        <div className="event_location">@  JIExpo Kemayoran, Jakarta</div>
+                        <div className="event_title">19th Indonesia Agro Food Expo 2019</div>
+                        <div className="event_location">@  Hall B Jakarta Convention Center</div>
                         <div className="event_text">
-                          <p>Pameran pertanian yang unik ini adalah acara teknologi pertanian terbesar di Indonesia yang menyatukan sebuah kongregasi internasional perusahaan pertanian dan juga industri pendukungnya yang berkumpul di jantung industri pertanian di Surabaya, Indonesia untuk memamerkan perkembangan terbaru dalam industri pertanian besar-besaran di Indonesia.
+                          <p>19th Indonesia AgroFood Expo 2019 adalah pameran tentang produk tanaman pangan, hortikultura, perkebunan, peternakan, perikanan, makanan olahan dan teknologi pertanian. Kegiatan tersebut diselenggarakan dengan tujuan antara lain sebagai sarana promosi produk dan potensi investasi agribisnis / agroindustri untuk pasar domestik dan internasional.
 
-                        8 Fokus Pertunjukan:
+                          Pameran Indonesia Agrofood Expo 2018 diselenggarakan setiap tahun sejak tahun 2001 atas dukungan Kementerian Pertanian RI.
 
-                        MESIN PERALATAN LIVESTOCK
-                        Hewan yang ambil bagian dalam Kompetisi Pertanian Umum: Sapi, Domba, Babi, Kambing, Kuda, Keledai. Hewan yang disajikan: hewan peternakan.
-                        MESIN PERLENGKAPAN PERIKANAN
-                        Perikanan disajikan: ikan air tawar dan air asin, kerang, kerang, kerang, kerang, udang, kepiting, lobster, cumi-cumi, gurita, rumput laut, teripang
-                        SEKTOR TANAMAN DAN RENCANA, TAMAN, TAMAN SAYURAN, LINGKUNGAN DAN ALAM
-                        Sejumlah area penjualan: Perumahan berkelanjutan, berkebun, kebun sayur, dll.
-                        MESIN & PERALATAN
-                        Teknik modern dan permesinan baru telah menggeser industri pertanian ke efisiensi dan produksi massal. Peningkatan efisiensi ini berarti bahwa dunia memiliki akses ke makanan apa pun yang diinginkannya kapan saja.
-                        LAYANAN DAN PROFESI PERTANIAN
-                        Beberapa peserta pameran: Ketenagakerjaan dan Pelatihan, Penelitian (INRA, CIRAD, dll.), Serikat Buruh, Bank, Lembaga.
-                        MESIN PENGOLAHAN PERTANIAN & PERALATAN
-                        Sektor Makanan dan Pertanian terdiri dari sistem aset individu yang sangat tergantung satu sama lain.
-                        MATERI & PRODUK BAKU PERTANIAN
-                        Produk berkualitas baik membutuhkan bahan-bahan berkualitas baik. Varietas buah dan sayuran diarahkan ke pasar produk segar.
-                        HORTIKULTUR & TAMAN
-                        Hortikultura adalah tentang menggunakan pengetahuan sains ahli Anda untuk mengoptimalkan produksi tanaman dengan cara yang paling hemat biaya.
-                        Info dan kontak:
+                          Indonesia AgroFood Expo 2019 yang ke-19 akan dilaksanakan di Jakarta Convention Center pada tanggal 27 – 30 Juni 2019. Pameran tersebut diselenggarakan bersamaan dengan Indonesia International Modern Agriculture Expo 2019 dan Indonesia Coffee, Cacao & Tea Festival 2019.
 
-                        Facebook: Indo Agri Expo
-                        Instagram: @indoagriexpo
-                        Situs web: indoagriexpo.com</p>
+                          Selama pameran selain display produk unggulan, teknologi, alat dan mesin serta jasa pendukung lainnya, juga akan diadakan kegiatan pendukung antara lain talkshow dan presentasi peluang investasi sektor pertanian, business matching (buyers meet sellers), launching product, festival kopi, kakao & teh, dll.</p>
                         </div>
                         <div className="event_speakers">
                           {/* Event Speaker */}
                           <div className="event_speaker d-flex flex-row align-items-center justify-content-start">
                             <div><div className="event_speaker_image"><img src={event_speaker1} alt /></div></div>
                             <div className="event_speaker_content">
-                              <div className="event_speaker_name">Michael Smith</div>
+                              <div className="event_speaker_name">Indonesia Coffee</div>
                               <div className="event_speaker_title">Materi dan Produk Baku Pertanian</div>
                             </div>
                           </div>
@@ -92,8 +72,8 @@ class Event1 extends Component {
                           <div className="event_speaker d-flex flex-row align-items-center justify-content-start">
                             <div><div className="event_speaker_image"><img src={event_speaker2} alt /></div></div>
                             <div className="event_speaker_content">
-                              <div className="event_speaker_name">Jessica Williams</div>
-                              <div className="event_speaker_title">Hortikultur dan Tanaman</div>
+                              <div className="event_speaker_name">directur pertanian</div>
+                              <div className="event_speaker_title">Materi dan Produk Baku Pertanian & Peningkatan Pengawasan Distribusi Pangan untuk Stabilisasi Harga</div>
                             </div>
                           </div>
                         </div>
@@ -110,4 +90,4 @@ class Event1 extends Component {
   }
 }
 
-export default Event1;
+export default Event2;
